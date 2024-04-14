@@ -7,10 +7,10 @@ const config = {
       consent_modal: {
         title: "We use cookies!",
         description:
-          'Hi, this website uses essential cookies to ensure its proper operation and tracking cookies to understand how you interact with it. The latter will be set only after consent. <button type="button" data-cc="c-settings" class="cc-link">Let me choose</button>',
+          ' เว็บไซต์นี้มีการใช้คุกกี้เพื่อเก็บข้อมูลการเยี่ยมชม หากยอมรับกรุณาคลิกปุ่มยอมรับด้านล่าง เพื่อยืนยันการเยี่ยมชมต่อ หากคุณไม่ยอมรับคุกกี้ ให้คลิกปุ่มปฏิเสธ หากสงสัยว่าเราใช้คุกกี้ทำอะไร อ่าน นโยบายคุกกี้ เพื่อทำความเข้าใจเพิ่มเติม <button type="button" data-cc="c-settings" class="cc-link">รายละเอียดเพิ่มเติม</button>',
         primary_btn: {
-          text: "Accept all",
-          role: "accept_all", // 'accept_selected' or 'accept_all'
+          text: "ยอมรับทั้งหมด",
+          role: "ปฏิเสธทั้งหมด", // 'accept_selected' or 'accept_all'
         },
         secondary_btn: {
           text: "Reject all",
